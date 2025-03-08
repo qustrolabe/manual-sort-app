@@ -4,7 +4,7 @@ import preact from "@preact/preset-vite";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/",
+  base: "/manual-sort-app/",
   server: { port: 3000 },
   preview: { port: 3000 },
   plugins: [
